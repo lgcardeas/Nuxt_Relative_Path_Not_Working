@@ -31,8 +31,7 @@ make app_working
 - Starting in `ignore@^5.2.0` it was introduced the ability to accept `allowRelativePaths` as an option to be backward compatibility with previos version.
   source: https://www.npmjs.com/package/ignore
 - In this case a fix was applied to `@nuxt/builder` to accept ignoreOptions through the nuxt configuration, as the class Ignore Already accepted, BUT, for some reason, it was never passed down.
-
-Check https://github.com/lgcardeas/Nuxt_Relative_Path_Not_Working/blob/bd394404f95417cea259a532eb85bad6bda8d423/Dockerfile_working#L12
+https://github.com/lgcardeas/Nuxt_Relative_Path_Not_Working/blob/bd394404f95417cea259a532eb85bad6bda8d423/Dockerfile_working#L12
 
 ```bash
 ........
