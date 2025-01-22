@@ -1,0 +1,25 @@
+{
+  "name": "nuxt_relative_path_not_working",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nuxt dev --config-file ./apps/app/app.config.js",
+    "dev:admin": "npx nuxt dev --config-file ./apps/admin/app.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lgcardeas/Nuxt_Relative_Path_Not_Working.git"
+  },
+  "author": "Luis Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgcardeas/Nuxt_Relative_Path_Not_Working/issues"
+  },
+  "homepage": "https://github.com/lgcardeas/Nuxt_Relative_Path_Not_Working#readme",
+  "description": "",
+  "dependencies": {
+    "nuxt": "^2.18.1",
+    "webpack-merge": "^6.0.1"
+  }
+}
